@@ -7,6 +7,61 @@
     <title>Document</title>
 </head>
 <body>
+    <style>
+        * {
+          box-sizing: border-box;
+          
+        }
+        
+        
+        .img-align{
+          vertical-align:center;
+          align-items:center ;
+    
+        }
+
+
+        
+        
+        .column {
+          float:left;
+          width: 20%;
+          padding: 10px;
+          height: 300px; 
+          margin-left:1px;
+          margin-top: 30px;
+        }
+        
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      </style>
+      </head>
+      <body>
+      <div>
+        <image class="image-align" src="https://images.unsplash.com/photo-1567446537708-ac4aa75c9c28?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bG9nb3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width="50px" height="50px">
+        <span>
+          <u>Assignment3</u>
+        </span>
+    
+      </div>
+      
+      <div class="row">
+        <div class="column" style="background-color:#aaa;">
+          <h2>Favourate Search Engines</h2>
+          <p>1.<u>Google</u></p>
+          <p>2.<u>Edge</u></p>
+        </div>
+        <div class="column" style="background-color:#bbb;">
+          <h2>Most Visited Sites</h2>
+          <p>1.<u>Git Hub</u></p>
+          <p>2.<u>GeeksForGeeks</u></p>
+          <p>3.<u>YouTube</u></p>
+          
+        </div>
+      </div>
     
 </body>
 </html>
